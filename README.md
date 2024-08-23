@@ -19,7 +19,7 @@ Clone the repo
 ```
 Navigate to Node Assignment
 ```bash
-    cd NodeAssignment
+    cd nearby-schools 
 ```
 Install Dependecies
 ```bash
