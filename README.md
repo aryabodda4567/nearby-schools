@@ -3,7 +3,7 @@
 
  
 Simple Node.js app developed with Express.js and used MySql Database to add and retrieve schools nearest to the user.
-The app uses the [Haversine formula] (https://en.wikipedia.org/wiki/Haversine_formula)  to calculate the distance from the user's location to the school's location.
+The app uses the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula)  to calculate the distance from the user's location to the school's location.
 
 
 ## Built With
