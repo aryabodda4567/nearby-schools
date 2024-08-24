@@ -79,8 +79,8 @@ const request = require('request');
 const options = {
   method: 'GET',
   url: 'http://localhost:3000/api/list-schools',
-  qs: {latitude: '154.019075675593', longitude: '105.194456709'},
-  headers: {Accept: '*/*', 'User-Agent': 'Thunder Client (https://www.thunderclient.com)'}
+  qs: {latitude: '154.019075675593', longitude: '105.194456709'}
+}
 };
 
 request(options, function (error, response, body) {
@@ -134,10 +134,9 @@ const request = require('request');
 
 const options = {
   method: 'POST',
-  url: 'https://node-assignment-ten.vercel.app/addSchool',
+  url: 'https://node-assignment-ten.vercel.app/api/list-school',
   headers: {
     Accept: '*/*',
-    'User-Agent': 'Thunder Client (https://www.thunderclient.com)',
     'Content-Type': 'application/json'
   },
   body: {
