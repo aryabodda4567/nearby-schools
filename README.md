@@ -90,7 +90,9 @@ request(options, function (error, response, body) {
 });
 ```
 **Response**
+Success:
 ```json
+  
 {
     "status": "success",
     "data": [
@@ -111,6 +113,14 @@ request(options, function (error, response, body) {
             "distance": 0.00036768282798957017
         } 
     ]
+}
+```
+**Response**
+Error:
+ ```json
+{
+    "status": "error",
+    "message": "Error fetching data: Illegal double '90.373e6347' value found during parsing"
 }
 ```
 
@@ -146,9 +156,23 @@ request(options, function (error, response, body) {
 });
 ```
 **Response**
+Success:
 ```javascript
 {
   "status": "success",
   "message": "School added successfully"
 }
 ```
+**Response**
+Error:
+```json
+{
+    "result": false,
+    "status": "error",
+    "message": [
+        "Address is required.",
+        "Longitude must be a valid floating-point number."
+    ]
+}
+```
+
