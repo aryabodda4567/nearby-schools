@@ -39,7 +39,7 @@ Install Dependecies
 
 ## API Reference
 
-#### Get all items
+#### Get all schools
 
 ```http
   GET /api/list-schools
@@ -50,7 +50,7 @@ Install Dependecies
 | `latitude` | `float` | **Required**. User latitude |
 | `longitude` | `float` | **Required**. User longitude|
 
-#### Get item
+#### Add schools Api
 
 ```http
   POST /api/add-school
