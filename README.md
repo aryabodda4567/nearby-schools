@@ -1,5 +1,5 @@
 
-# Simple Backedn application for finding locations based Haversine formula
+# Simple Backend app for finding locations based Haversine formula
 
  
 Simple Node.js app developed with Express.js and used MySql Database to add and retrieve schools nearest to the user.
